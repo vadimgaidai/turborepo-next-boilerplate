@@ -1,10 +1,11 @@
 import { Button } from 'ui'
+import { NextPage } from 'next/types'
 
-export default function Web() {
-  return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
-  )
-}
+const Web: NextPage = () => (
+  <div>
+    <h1>Web</h1>
+    <Button />
+  </div>
+)
+
+export default Web

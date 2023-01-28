@@ -1,10 +1,11 @@
-import { Button } from "ui";
+import { Button } from 'ui'
+import { NextPage } from 'next/types'
 
-export default function Docs() {
-  return (
-    <div>
-      <h1>Docs</h1>
-      <Button />
-    </div>
-  );
-}
+const Docs: NextPage = () => (
+  <div>
+    <h1>Docs</h1>
+    <Button />
+  </div>
+)
+
+export default Docs
